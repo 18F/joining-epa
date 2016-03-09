@@ -1,10 +1,10 @@
-## Joining 18F
+## Joining the EPA
 
-This is the repository for the guide to [Joining 18F](https://pages.18f.gov/joining-18f/), built on the [18F Guides Template](https://github.com/18F/guides-template).
+This is the repository for the guide to [Joining the EPA](https://pages.18f.gov/joining-epa/), built on the [18F Guides Template](https://github.com/18F/guides-template).
 
 ### Send feedback
 
-If you find something confusing or spot an error, please let us know by [filing an issue](https://github.com/18F/joining-18f/issues).
+If you find something confusing or spot an error, please let us know by [filing an issue](https://github.com/18F/joining-epa/issues).
 
 ### Install and edit this guide on your computer
 
@@ -15,8 +15,8 @@ If you want to run your own copy of this guide, you'll need [Ruby](https://www.r
 To serve this guide locally:
 
 ```shell
-$ git clone git@github.com:18F/joining-18f.git
-$ cd joining-18f
+$ git clone git@github.com:18F/joining-epa.git
+$ cd joining-epa
 $ ./go serve
 ```
 
