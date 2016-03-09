@@ -1,0 +1,76 @@
+markdown: redcarpet
+name: Joining the EPA
+exclude:
+- go
+- copy-template
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+
+permalink: pretty
+
+# Markdown extensions to allow tables
+redcarpet:
+  extensions: ["tables"]
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: 18F
+  url: https://18f.gsa.gov
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /assets/img/18f-logo.png
+logoalt: 18F logo
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: So you want to join the EPA?
+  url: index.html
+  internal: true
+- text: Who we are hiring
+  url: who-we-are-hiring/
+  internal: true
+- text: Open positions
+  url: open-positions/
+  internal: true
+- text: How to apply
+  url: how-to-apply/
+  internal: true
+- text: Interview process
+  url: interview-process/
+  internal: true
+- text: Benefits
+  url: benefits/
+  internal: true
+- text: Government pay grades explained
+  url: pay-grades/
+  internal: true
+- text: Leave policies
+  url: leave-policies/
+  internal: true
+- text: Conferences, training, and travel
+  url: conferences-training-travel/
+  internal: true
+
+repos:
+- name: Joining the EPA
+  description: Main repository
+  url: https://github.com/18F/joining-epa
+
+# Collections
+collections:
+  interviews:
+    permalink: /interviews/:title/
+    output: true
+  positions:
+    output: true
+
+google_analytics_ua: UA-48605964-19
+
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: "guides_style_18f_default"
